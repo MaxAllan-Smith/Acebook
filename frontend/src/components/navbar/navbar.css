@@ -1,0 +1,14 @@
+#logo {
+  padding-left: 20px;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+#searchAcebook {
+  margin: 0;
+  position: relative;
+  left: 110%;
+  right: 100%;
+
+  width: 350px;
+} 
