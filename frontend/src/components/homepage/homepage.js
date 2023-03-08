@@ -6,7 +6,6 @@ class Homepage extends PureComponent {
   render() { 
     return (
       <div>
-        <Navbar />
       </div>
     );
   }
