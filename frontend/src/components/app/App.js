@@ -9,12 +9,11 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Navbar from '../navbar/navbar';
 
 const App = () => {
+  const [token, setToken] = useState(localStorage.getItem("token"));
   return (
     <>
-      <Navbar />
       <Routes>
         <Route path='/' element={<Homepage navigate={useNavigate()} />} />
         <Route path='/posts' element={<Feed navigate={useNavigate()} />} />

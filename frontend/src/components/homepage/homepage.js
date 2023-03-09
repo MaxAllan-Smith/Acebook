@@ -5,8 +5,9 @@ class Homepage extends PureComponent {
   state = {  } 
   render() { 
     return (
-      <div>
-      </div>
+      <>
+      <Navbar />
+      </>
     );
   }
 }
